@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import PageSection from '@/components/PageSection'
-import { SectionColor } from '@/components/PageSection'
+import PageSection from "@/components/PageSection";
+import { SectionColor } from "@/components/PageSection";
 </script>
 
 <template>
@@ -19,12 +19,46 @@ import { SectionColor } from '@/components/PageSection'
     </div>
   </PageSection>
   <PageSection full :bg-color="SectionColor.White">
-    <div class="flex justify-center items-center gap-2 min-h-full py-12">
-      <img
-        src="@/assets/works/village-2020/1.jpg"
-        alt="Village"
-        class="w-full bg-top object-cover rounded"
-      />
+    <div class="flex justify-center items-center gap-16 min-h-full py-12">
+      <div class="relative">
+        <div
+          class="border-2 border-red aspect-1 absolute left-0 w-full top-23"
+        ></div>
+        <img
+          src="@/assets/works/village-2020/1.jpg"
+          alt="Village"
+          class="w-auto max-h-screen bg-top object-cover rounded"
+        />
+      </div>
+      <div class="flex-grow">
+        <img
+          src="@/assets/works/village-2020/1.jpg"
+          alt="Village"
+          class="w-full max-h-screen bg-top object-cover rounded"
+        />
+      </div>
+    </div>
+  </PageSection>
+
+  <PageSection full :bg-color="SectionColor.White">
+    <div class="flex justify-center items-center gap-16 min-h-full py-12">
+      <div class="relative">
+        <div
+          class="border-2 border-red aspect-1 absolute left-0 w-full top-60"
+        ></div>
+        <img
+          src="@/assets/works/village-2020/1.jpg"
+          alt="Village"
+          class="w-auto max-h-screen bg-top object-cover rounded"
+        />
+      </div>
+      <div class="flex-grow">
+        <img
+          src="@/assets/works/village-2020/1.jpg"
+          alt="Village"
+          class="w-full max-h-screen bg-top object-cover rounded"
+        />
+      </div>
     </div>
   </PageSection>
 </template>
