@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import PageSection from '@/components/PageSection'
-import { SectionColor } from '@/components/PageSection'
+import PageSection from "@/components/PageSection";
+import { SectionColor } from "@/components/PageSection";
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/hug-2020/1.jpg"
         alt="Parting"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
