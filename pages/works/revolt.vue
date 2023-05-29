@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import PageSection from '@/components/PageSection'
-import { SectionColor } from '@/components/PageSection'
+import PageSection from "@/components/PageSection";
+import { SectionColor } from "@/components/PageSection";
 </script>
 
 <template>
@@ -24,7 +24,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/revolt-2020/1.jpg"
         alt="Revolt"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
@@ -33,7 +33,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/revolt-2020/3.jpg"
         alt="Revolt"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
@@ -42,7 +42,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/revolt-2020/2.jpg"
         alt="Revolt"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
