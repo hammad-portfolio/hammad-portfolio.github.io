@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { SectionColor } from '.'
+import { SectionColor } from ".";
 
 defineProps<{
-  bgColor?: SectionColor
-  full?: boolean
-}>()
+  bgColor?: SectionColor;
+  full?: boolean;
+}>();
 </script>
 
 <template>
@@ -14,7 +14,7 @@ defineProps<{
       'min-h-screen': full,
       'h-full': full,
       'bg-white': !bgColor || bgColor === SectionColor.White,
-      'bg-black': !bgColor || bgColor === SectionColor.Black
+      'bg-black': !bgColor || bgColor === SectionColor.Black,
     }"
   >
     <div class="container mx-auto flex-auto h-full">

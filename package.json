@@ -15,5 +15,8 @@
     "@unocss/transformer-directives": "^0.52.4",
     "nuxt": "^3.5.1",
     "unocss": "^0.52.4"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.52.4"
   }
 }
