@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import PageSection from '@/components/PageSection'
-import { SectionColor } from '@/components/PageSection'
+import PageSection from "@/components/PageSection";
+import { SectionColor } from "@/components/PageSection";
 </script>
 
 <template>
@@ -20,27 +20,23 @@ import { SectionColor } from '@/components/PageSection'
   <PageSection full :bg-color="SectionColor.White">
     <div class="flex justify-center items-center gap-2 min-h-full py-12">
       <img
-        src="@/assets/works/crossing-2020/1.jpg"
+        src="@/assets/works/crossing-2020/2.jpg"
         alt="Crossing"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
   <PageSection full :bg-color="SectionColor.White">
     <div class="flex justify-center items-center gap-2 min-h-full py-12">
       <img
-        src="@/assets/works/crossing-2020/2.jpg"
+        src="@/assets/works/crossing-2020/1.jpg"
         alt="Crossing"
-        class="w-full bg-top object-cover rounded"
+        class="w-1/3 bg-top object-cover rounded"
       />
-    </div>
-  </PageSection>
-  <PageSection full :bg-color="SectionColor.White">
-    <div class="flex justify-center items-center gap-2 min-h-full py-12">
       <img
         src="@/assets/works/crossing-2020/3.jpg"
         alt="Crossing"
-        class="w-full bg-top object-cover rounded"
+        class="w-1/4 bg-top object-cover rounded"
       />
     </div>
   </PageSection>
