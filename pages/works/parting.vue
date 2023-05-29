@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import PageSection from '@/components/PageSection'
-import { SectionColor } from '@/components/PageSection'
+import PageSection from "@/components/PageSection";
+import { SectionColor } from "@/components/PageSection";
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/parting-2021/1.jpg"
         alt="Parting"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
@@ -32,7 +32,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/parting-2021/3.jpg"
         alt="Parting"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
@@ -41,7 +41,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/parting-2021/4.jpg"
         alt="Parting"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
@@ -50,7 +50,7 @@ import { SectionColor } from '@/components/PageSection'
       <img
         src="@/assets/works/parting-2021/5.jpg"
         alt="Parting"
-        class="w-full bg-top object-cover rounded"
+        class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>

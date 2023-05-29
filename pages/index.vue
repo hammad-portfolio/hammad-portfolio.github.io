@@ -18,6 +18,12 @@ const works = [
     path: "/works/parting",
   },
   {
+    title: "Crossing",
+    year: "2020",
+    bg: bgSea,
+    path: "/works/crossing",
+  },
+  {
     title: "Revolt",
     year: "2020",
     bg: bgRevolt,
@@ -28,12 +34,6 @@ const works = [
     year: "2020",
     bg: bgHug,
     path: "/works/hug",
-  },
-  {
-    title: "Crossing",
-    year: "2020",
-    bg: bgSea,
-    path: "/works/crossing",
   },
   {
     title: "Village",
