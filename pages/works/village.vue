@@ -21,9 +21,6 @@ import { SectionColor } from "@/components/PageSection";
   <PageSection full :bg-color="SectionColor.White">
     <div class="flex justify-center items-center gap-16 min-h-full py-12">
       <div class="relative">
-        <div
-          class="border-2 border-red aspect-1 absolute left-0 w-full top-23"
-        ></div>
         <img
           src="@/assets/works/village-2020/1.jpg"
           alt="Village"
@@ -32,9 +29,9 @@ import { SectionColor } from "@/components/PageSection";
       </div>
       <div class="flex-grow">
         <img
-          src="@/assets/works/village-2020/1.jpg"
+          src="@/assets/works/village-2020/2.webp"
           alt="Village"
-          class="w-full max-h-screen bg-top object-cover rounded"
+          class="w-full max-h-screen bg-top object-contain rounded"
         />
       </div>
     </div>
@@ -43,9 +40,6 @@ import { SectionColor } from "@/components/PageSection";
   <PageSection full :bg-color="SectionColor.White">
     <div class="flex justify-center items-center gap-16 min-h-full py-12">
       <div class="relative">
-        <div
-          class="border-2 border-red aspect-1 absolute left-0 w-full top-60"
-        ></div>
         <img
           src="@/assets/works/village-2020/1.jpg"
           alt="Village"
@@ -54,9 +48,28 @@ import { SectionColor } from "@/components/PageSection";
       </div>
       <div class="flex-grow">
         <img
+          src="@/assets/works/village-2020/3.webp"
+          alt="Village"
+          class="w-full max-h-screen bg-top object-contain rounded"
+        />
+      </div>
+    </div>
+  </PageSection>
+
+  <PageSection full :bg-color="SectionColor.White">
+    <div class="flex justify-center items-center gap-16 min-h-full py-12">
+      <div class="relative">
+        <img
           src="@/assets/works/village-2020/1.jpg"
           alt="Village"
-          class="w-full max-h-screen bg-top object-cover rounded"
+          class="w-auto max-h-screen bg-top object-cover rounded"
+        />
+      </div>
+      <div class="flex-grow">
+        <img
+          src="@/assets/works/village-2020/4.webp"
+          alt="Village"
+          class="w-full max-h-screen bg-top object-contain rounded"
         />
       </div>
     </div>
