@@ -9,6 +9,7 @@ import bgCrossing from "@/assets/works/crossing-2020/2.webp";
 import bgVillage from "@/assets/works/village-2020/1.jpg";
 import bgParting from "@/assets/works/parting-2021/1.jpg";
 import MediumText from "@/components/typography/MediumText.vue";
+import NormalText from "~/components/typography/NormalText.vue";
 
 const works = [
   {
@@ -72,11 +73,15 @@ const works = [
           textures, aiming to inspire and evoke beauty.
         </NormalText>
       </div>
-      <img
-        alt="Hammad logo"
-        src="@/assets/portrait.jpg"
-        class="object-cover min-w-128 w-128 h-128 rounded-5"
-      />
+      <div>
+        <MediumText>This website is my graduation portfolio.</MediumText>
+        <NormalText>
+          In the form of selected artistic projects, I would like to give
+          insights into what moved and continues to move me during my studies of
+          'Kunsttherapie im Sozialen' at the Hks-Ottersberg from September 2019
+          to July 2023.
+        </NormalText>
+      </div>
     </div>
   </PageSection>
   <WorkSection
