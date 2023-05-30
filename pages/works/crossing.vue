@@ -20,24 +20,54 @@ import { SectionColor } from "@/components/PageSection";
   <PageSection full :bg-color="SectionColor.White">
     <div class="flex justify-center items-center gap-2 min-h-full py-12">
       <img
-        src="@/assets/works/crossing-2020/2.jpg"
+        src="@/assets/works/crossing-2020/8.webp"
         alt="Crossing"
         class="w-auto max-h-screen bg-top object-cover rounded"
       />
     </div>
   </PageSection>
   <PageSection full :bg-color="SectionColor.White">
-    <div class="flex justify-center items-center gap-2 min-h-full py-12">
+    <div class="flex justify-center items-center gap-16 min-h-full py-12">
       <img
-        src="@/assets/works/crossing-2020/1.jpg"
+        src="@/assets/works/crossing-2020/1.webp"
         alt="Crossing"
-        class="w-1/3 bg-top object-cover rounded"
+        class="w-1/3 bg-top object-cover rounded aspect-1"
       />
       <img
-        src="@/assets/works/crossing-2020/3.jpg"
+        src="@/assets/works/crossing-2020/6.webp"
+        alt="Crossing"
+        class="w-1/4 bg-top object-cover rounded"
+      />
+      <img
+        src="@/assets/works/crossing-2020/7.webp"
         alt="Crossing"
         class="w-1/4 bg-top object-cover rounded"
       />
     </div>
+    <div class="flex justify-center items-center gap-4 min-h-full py-12">
+      <img
+        src="@/assets/works/crossing-2020/3.webp"
+        alt="Crossing"
+        class="w-1/4 bg-top object-cover rounded aspect-1"
+      />
+      <img
+        src="@/assets/works/crossing-2020/5.webp"
+        alt="Crossing"
+        class="w-1/4 bg-top object-cover rounded aspect-1"
+      />
+      <img
+        src="@/assets/works/crossing-2020/4.webp"
+        alt="Crossing"
+        class="w-1/4 bg-top object-cover rounded aspect-1"
+      />
+    </div>
+  </PageSection>
+  <PageSection>
+    <video
+      src="/crossing-video.mp4"
+      controls
+      loop
+      class="w-full bg-top object-cover rounded"
+    ></video>
   </PageSection>
 </template>

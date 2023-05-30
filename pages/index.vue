@@ -5,7 +5,7 @@ import WorkSection from "@/components/WorkSection.vue";
 import bgRevolt from "@/assets/works/revolt-2020/1.jpg";
 import bgBorders from "@/assets/works/borders-2019/1.jpg";
 import bgHug from "@/assets/works/hug-2020/1.jpg";
-import bgSea from "@/assets/works/crossing-2020/2.jpg";
+import bgCrossing from "@/assets/works/crossing-2020/2.webp";
 import bgVillage from "@/assets/works/village-2020/1.jpg";
 import bgParting from "@/assets/works/parting-2021/1.jpg";
 import MediumText from "@/components/typography/MediumText.vue";
@@ -20,7 +20,7 @@ const works = [
   {
     title: "Crossing",
     year: "2020",
-    bg: bgSea,
+    bg: bgCrossing,
     path: "/works/crossing",
   },
   {
